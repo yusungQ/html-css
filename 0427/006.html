@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        p{
+            color:red;
+        }
+        h1.hi {
+            color: rgb(175, 54, 119);
+        }
+        #hello{
+            border: green;
+        }
+        [type="email"]{
+            border: color blue;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div>
+        <h1 class="hi">안녕</h1>
+        <p>안녕</p>
+        <br>
+        
+        <button type="button">안녕</button>
+        <input type="text" id="hello"><label for="hello"></label><br>
+
+        <label for="email"></label><input type="email" id="email">
+    </div>
+
+</body>
+
+</html>
