@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <h1>글쓰기</h1>
+
+    <p>내용을 입력해 주세요</p>
+
+    <form>
+
+        <div>
+            <label for="categories"><strong>카테고리</strong></label>
+            <select name="categoreis" id="categories">
+                <option value="general">일반</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="title"><strong>제목</strong></label><input type="text">
+        </div>
+
+        <div>
+            <label for="content"><strong>내용</strong></label><input type="text">
+        </div>
+
+        <div>
+            <label for="file-btn"><strong>파일첨부</strong></label><button>파일선택</button><label>선택된 파일 없음</label>
+        </div>
+
+        <div>
+            <a href="#"><strong>목록</strong></a><button>초기화</button><button>작성</button>
+        </div>
+    </form>
+    
+</body>
+</html>
